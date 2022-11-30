@@ -1,3 +1,5 @@
-import soma from "./soma"
+var div = function(nome, idade){
+    console.log(`Seu nome é ${nome}, sua idade é ${idade} anos`)
+}
 
-const funcSoma = soma(10,40)
+div("Rosa Fernandes", 23)
